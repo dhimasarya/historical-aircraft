@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.intro-images {
+    background-image: url(/images/bf109-a.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.intro {
+    height: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+    p {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    table,
+    th,
+    td {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+        background-color: #1f1f1f;
+    }
+}
