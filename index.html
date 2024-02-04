@@ -11,7 +11,7 @@
 <body>
     <div class="intro-images">
         <div class="intro-text">
-            <h1 style="font-size: 80px;">Messerschmitt Bf 109</h1>
+            <h1>Messerschmitt Bf 109</h1>
         </div>
     </div>
     <div class="intro">
@@ -55,38 +55,66 @@
             </table>
         </div>
     </div>
-    <div class="variants ">
+    <div class="variants">
         <h3>Variants</h3>
 
-        <ul>
-            <li>Bf 109A</li>
-            <li>Bf 109B</li>
-            <li>Bf 109C</li>
-            <li>Bf 109D</li>
-            <li>Bf 109E-1</li>
-            <li>Bf 109E-3</li>
-            <li>Bf 109E-4</li>
-            <li>Bf 109E-5</li>
-            <li>Bf 109E-7</li>
-            <li>Bf 109F-1</li>
-            <li>Bf 109F-2</li>
-            <li>Bf 109F-3</li>
-            <li>Bf 109F-4</li>
-            <li>Bf 109F-5</li>
-            <li>Bf 109G-1</li>
-            <li>Bf 109G-2</li>
-            <li>Bf 109G-3</li>
-            <li>Bf 109G-4</li>
-            <li>Bf 109G-5</li>
-            <li>Bf 109G-6</li>
-            <li>Bf 109G-8</li>
-            <li>Bf 109G-10</li>
-            <li>Bf 109G-12</li>
-            <li>Bf 109G-14</li>
-            <li>Bf 109K-4</li>
-            <li>Bf 109K-6</li>
-        </ul>
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="variant-number">Bf-109A</div>
+                <img src="/images/bf109-a.jpg" alt="Bf-109 A">
+                <div class="caption">The Bf 109A was the first version of the Bf 109. Armament was initially planned to be just two cowl-mounted 7.92 mm (.312 in) MG 17 machine guns. However, possibly due to the introduction of the Hurricane and Spitfire, each with eight
+                    7.7 mm (.303 in) machine guns, experiments were carried out with a third machine gun firing through the propeller shaft. V4 and some A-0 were powered by a 640 PS (631 hp, 471 kW) Junkers Jumo 210B engine driving a two-blade fixed-pitch
+                    propeller, but production was changed to the 670 PS (661 hp, 493 kW) Jumo 210D as soon as it became available.</div>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="variant-number">Bf-109B</div>
+                <img src="/images/bf109-b2.jpg" alt="Bf-109 B">
+                <div class="caption">The first Bf 109 in serial production, the Bf 109 B-1, was fitted with the 670 PS (661 hp, 493 kW) Jumo 210D engine driving a two-bladed fixed-pitch propeller. During the production run a variable-pitch propeller was introduced and often
+                    retrofitted to older aircraft; these were then unofficially known as B-2s. The Bf 109B saw combat with the Legion Condor during the Spanish Civil War, although it was apparent that the armament was still inadequate. A total of 341
+                    Bf 109 B-1s were built by Messerschmitt, Fieseler, and the Erla Maschinenwerke.</div>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="variant-number">Bf-109C</div>
+                <img src="/images/bf109-c.jpg" alt="Bf-109 C">
+                <div class="caption">Production of the short-lived Bf 109C began in the spring of 1938. The 109C was powered by a 700 PS (690 hp, 515 kW) Jumo 210G engine with direct fuel injection. Another important change was a strengthened wing, now carrying two more machine
+                    guns, giving four 7.92 mm (.312 in) MG 17s in total. The C-0s were pre-production aircraft, the C-1 was the production version, and the C-2 was an experimental version with an engine-mounted machine gun. The C-3 was planned with 20
+                    mm MG FF cannons replacing the two MG 17s in the wings, but it is not known how many C-3s (if any) were built or converted. The C-4 was planned to have an engine-mounted Motorkanone MG FF, but this variant was not produced. A total
+                    of 58 Bf 109Cs of all versions were built by Messerschmitt.</div>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="variant-number">Bf-109D</div>
+                <img src="/images/bf109-d.jpg" alt="Bf-109 D">
+                <div class="caption">Variants included the D-0 and D-1 models, both having a Junkers Jumo 210D engine and armed with two wing-mounted and two nose-mounted 7.92 mm (.312 in) MG 17s. The D-2 was an experimental version with an engine-mounted machine gun, but
+                    as previously tried, this installation failed. The D-3 was similar to the C-3 but with two 20 mm MG FFs in the wings. A total of 647 Bf 109Ds of all versions were built by Focke-Wulf, Erla, Fieseler, Arado and AGO. Messerschmitt is
+                    listed as having produced only four Bf 109Ds, probably the D-0 preproduction series with the serial production transferred to the licensed manufacturers. Several Bf 109Ds were sold to Hungary. Switzerland bought 10 109D-1s (Serial
+                    Numbers from 2301 until 2310) which had been built by the Arado-Flugzeugwerke GmbH factory located in Warnemünde.</div>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
     </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
